@@ -4,7 +4,7 @@ require "rubygems/package_task"
 task :default => :package
 
 spec = Gem::Specification.new do |s|
-  s.name              = "dummy_gem"
+  s.name              = "another_dummy_gem"
   s.version           = "1.0.0"
   s.summary           = "Does nothing. Useful for testing."
   s.author            = "Joshua Cheek"
